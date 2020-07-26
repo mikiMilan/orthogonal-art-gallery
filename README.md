@@ -6,7 +6,9 @@ Biblioteke potrebne za rad porgrama oag.cpp su:
 - cgal (verzija 5.0.2)
 - minisat (verzija 2.2)
 
-Komanda kojom se pokreće oag.cpp je:
+Verzija c++ kompajljera je: gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
 
+Komanda kojom se pokreće oag.cpp je:
+g++ -g oag.cpp -o oag.out -lgmp -lmpfr -lminisat && clear && ./oag.out
 
 Takođe, na repozitorijumu se nalaze rezultati dobijeni nad instancama iz rada "An Exact and Efficient Algorithm for the Orthogonal Art Gallery Problem".
