@@ -10,6 +10,7 @@ Verzija c++ kompajlera: gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
 
 Komanda kojom se pokreće oag.cpp:
 g++ -g oag.cpp -o oag.out -lgmp -lmpfr -lminisat && clear && ./oag.out
+
 Komanda kojom se pokreće greedy.cpp:
 g++ -g greedy.cpp -o greedy.out -lgmp -lmpfr && clear && ./greedy.out
 
